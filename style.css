@@ -1,0 +1,44 @@
+body{
+    background-color: #cfab8c;
+    height: 80vh
+}
+
+.cardContainer{
+    /* border: 2px solid black; */
+
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.text{
+    font-size: 3em;
+    margin: 1.5em;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+img{
+    align-self: center;
+    margin: auto;
+    max-height: min-content;
+    /* height: 300px;
+    width: 300px; */
+    z-index: -1;
+    position: relative;
+    border-radius: 50%;
+}
+
+.btn{
+    align-self: center;
+    width:fit-content;
+    border-radius: 10%;
+    padding: .5em;
+    margin: 2em;
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: black;
+    color: ivory;
+}
